@@ -56,3 +56,30 @@ nav {
     height: 100%;
     object-fit: cover;
 }
+.nopadding-x{
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.onsell_product{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+}
+.onsell_content{
+    margin-left: 35px;
+    .onsell_text1{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+    }
+    .onsell_text2{
+        
+    }
+    .onsell_text3{
+        
+    }
+}
