@@ -1,0 +1,152 @@
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+.padding-x120{
+    padding: 0 120px;
+}
+header{
+    width: 100%;
+    height: 84px;
+    .container-fluid{
+        padding-top: 6px;
+    }
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    >a {
+        width: 26%;
+    }
+}
+.nav_mid {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title {
+    padding: 10px 29px;
+    >a{
+        text-decoration: none;
+        color: #6B6966;
+    }
+}
+
+.nav_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 600px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nopadding-x{
+    padding: 70px 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.onsell_product{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+}
+.onsell_content{
+    margin-left: 35px;
+    
+}
+.onsell_text1{
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+}
+.onsell_text2{
+    color: #6B6966;
+    font-size: 16px;
+    font-weight: 500;
+}
+.onsell_text3{
+    color: #E94141;
+    font-size: 20px;
+    font-weight: 700;
+}
+.news{
+    height: 84px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 84px;
+    text-align: center; 
+}
+.news_whole{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .news_card{
+        width: 24%;
+        height: 444px;
+        background: #FFF;
+        text-align: center;
+        border-radius: 15px;
+        img{
+            width: 100%;
+            border-bottom: 12px solid #4B9090;
+            border-radius: 15px 15px 0 0;
+        }
+        .activity{
+            padding-top: 52px;
+            display: flex;
+            justify-content: space-around;
+            .actspan1{
+                color: #000;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+        .actspan2{
+            text-align: left;
+            padding: 32px 42px;
+        }
+    }
+}
+footer{
+    height: 176px;
+    background: #D9D9D9;
+    text-align: center;
+    line-height: 44px;
+    margin-top: 80px;
+    .footer_title{
+        font-weight: 700;
+        letter-spacing: 3.84px;
+    }
+    .footer_space{
+        padding: 0 10px;
+    }
+    .use_line{
+        border-left: 1px solid #000;
+    }
+}

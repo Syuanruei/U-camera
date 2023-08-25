@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Noto Serif TC';
-    padding: 0 120px;
+    background: #FFFCE6;
 }
 
 ul,ol{
@@ -12,7 +12,10 @@ ul,ol{
 }
 a{
     text-decoration: none;
-    color: #6B6966;
+    color: #000;
+}
+.rounded{
+    border-radius: 15px;
 }
 
 // .zoom{
