@@ -69,11 +69,15 @@
 
     .ab_left{
         width: 50%;
+        >img{
+            width: 100%;
+        }
     }
     .ab_right{
         width: 50%;
         display: flex;
         align-items: center;
-        padding: 0 24px;
+        padding: 0 90px;
+        line-height: 32px;
     }
 }
