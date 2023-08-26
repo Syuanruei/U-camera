@@ -203,6 +203,50 @@ footer .use_line {
   border-radius: 4px;
 }
 
+.container_news {
+  display: flex;
+  justify-content: center;
+}
+
+.newsall {
+  height: 84px;
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.newsall2 {
+  height: 84px;
+  color: #6B6966;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+  margin: 0 20px;
+}
+.newsall2 > a {
+  color: #6B6966;
+}
+
+.about_content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 0;
+}
+.about_content .ab_left {
+  width: 50%;
+}
+.about_content .ab_right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
 body {
   font-family: "Noto Serif TC";
   background: #FFFCE6;
