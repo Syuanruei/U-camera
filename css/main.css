@@ -253,7 +253,8 @@ footer .use_line {
 }
 @media (max-width: 400px) {
   footer {
-    height: 344px;
+    height: 400px;
+    line-height: 48px;
   }
 }
 .hothot {

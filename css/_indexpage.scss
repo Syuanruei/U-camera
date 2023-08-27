@@ -241,8 +241,9 @@ footer{
         }
     }
 }
-// @media(max-width: 400px){
-//     footer {
-//         height: 344px;
-//     }
-// }
+@media(max-width: 400px){
+    footer {
+        height: 400px;
+        line-height: 48px;
+    }
+}
