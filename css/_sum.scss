@@ -66,18 +66,17 @@
     display: flex;
     flex-wrap: wrap;
     margin: 60px 0;
-
-    .ab_left{
-        width: 50%;
-        >img{
-            width: 100%;
-        }
+}
+.ab_left{
+    width: 50%;
+}
+.bb{
+     width: 100%;
     }
-    .ab_right{
-        width: 50%;
-        display: flex;
-        align-items: center;
-        padding: 0 90px;
-        line-height: 32px;
-    }
+.ab_right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 90px;
+    line-height: 32px;
 }

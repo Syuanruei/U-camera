@@ -226,9 +226,16 @@ footer{
         width: 45%;
         height: 545px;
         margin-top: 24px;
+        }
     }
+    .ab_left {
+        text-align: center;
+        .bb{
+            width: 80%;
+        }
     }
 }
+
 @media(max-width: 576px){
     .news_whole {
         flex-direction: column;
@@ -242,8 +249,16 @@ footer{
     }
 }
 @media(max-width: 400px){
+    .push_dis{
+        .push_product {
+            padding: 20px;
+            margin: 5px;
+            flex-basis: calc(50% - 10px);
+        }
+    }
+    
     footer {
-        height: 400px;
+        height: 206px;
         line-height: 48px;
     }
 }
