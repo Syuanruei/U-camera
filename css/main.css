@@ -223,6 +223,12 @@ footer .use_line {
   .news_whole {
     justify-content: space-evenly;
   }
+  .ab_left {
+    text-align: center;
+  }
+  .ab_left .bb {
+    width: 80%;
+  }
 }
 @media (max-width: 800px) {
   .nopadding-x {
@@ -239,11 +245,18 @@ footer .use_line {
     height: 545px;
     margin-top: 24px;
   }
-  .ab_left {
-    text-align: center;
+  .about_content {
+    flex-direction: column;
+    align-items: center;
   }
-  .ab_left .bb {
-    width: 80%;
+  .about_content .ab_left {
+    width: 100%;
+  }
+  .about_content .ab_right {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 0px 20px;
   }
 }
 @media (max-width: 576px) {
