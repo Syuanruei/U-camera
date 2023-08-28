@@ -259,6 +259,15 @@ footer{
         margin-top: 24px;
         }
     }
+    footer {
+        height: auto;
+        line-height: 48px;
+
+        & div:nth-child(2){
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }
 @media(max-width: 400px){
     .push_dis{
@@ -267,10 +276,5 @@ footer{
             margin: 5px;
             flex-basis: calc(50% - 10px);
         }
-    }
-    
-    footer {
-        height: 206px;
-        line-height: 48px;
     }
 }
