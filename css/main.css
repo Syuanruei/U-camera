@@ -221,6 +221,7 @@ footer .use_line {
   .onsell_content {
     margin-left: 0;
     text-align: center;
+    margin-top: 34px;
   }
   .news_whole {
     justify-content: space-evenly;
