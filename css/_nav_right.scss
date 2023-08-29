@@ -1,0 +1,178 @@
+.log{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 38px;
+    padding-bottom: 42px;
+}
+.input_wrap{
+    width: 793px;
+    height: 507px;
+    background: #9DB8A2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.input_group{
+    width: 386px;
+    height: 50px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 10px;
+
+    &::before {
+            content: "帳號";
+            width: 36px;
+            height: 25px;
+            color: #9DB8A2;
+            background-size: cover;
+            display: inline-block;
+            position: absolute;
+            left: 14px;
+            top: 10px;
+    }
+}
+.input_group2{
+    width: 386px;
+    height: 50px;
+    background-color: #FFF;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 10px;
+
+    &::before {
+            content: "密碼";
+            width: 36px;
+            height: 25px;
+            color: #9DB8A2;
+            background-size: cover;
+            display: inline-block;
+            position: absolute;
+            left: 14px;
+            top: 12px;
+    }
+}
+input.form-control{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 13px 24px;
+    padding-left: 66px;
+
+    &:focus{
+        border-color: #5e8365;
+        box-shadow: 0 0 0 3px #5e8365;
+    }
+}
+.forgot{
+    width: 386px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: end;
+    margin-top: -6px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.log_mid{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 18px 0;
+
+    .log_mid_1{
+        height: 46px;
+        width: 126px;
+        color: #FFF;
+        font-size: 26px;
+        border: 1px solid #FFF;
+        border-radius: 15px;
+        text-align: center;
+        line-height: 46px;
+        cursor: pointer;
+    }
+    .log_mid_2{
+        height: 46px;
+        width: 126px;
+        color: #9DB8A2;
+        background: #FFF;
+        font-size: 26px;
+        border: 1px solid #FFF;
+        border-radius: 15px;
+        text-align: center;
+        line-height: 46px;
+        cursor: pointer;
+    }
+}
+.log_bottom{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+
+    .line_fast{
+        width: 110px;
+        border-top: 1px solid #FFF;
+        margin: 12px 8px;
+    }
+    .text_fast{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.icon_circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #FFF;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+@media(max-width: 800px){
+    .input_wrap {
+        width: 500px;
+    }
+    .log_mid_1 {
+        margin: 0 10px;
+    }
+    .log_mid_2 {
+        margin: 0 10px;
+    }
+}
+@media(max-width: 576px){
+    .input_wrap {
+        width: 300px;
+    }
+    .input_group {
+        width: 270px;
+    }
+    .input_group2 {
+        width: 270px;
+    }
+    .forgot {
+        padding-right: 66px;
+    }
+    .log_mid {
+        width: 80%;
+        .log_mid_1 {
+            margin: 0 20px;
+        }
+        .log_mid_2 {
+            margin: 0 20px;
+        }
+    }
+    .log_bottom{
+        .line_fast {
+            width: 84px;
+        }
+    }
+}
