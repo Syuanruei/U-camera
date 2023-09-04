@@ -43,27 +43,29 @@ nav {
     flex-direction: row;
     align-items: center;
 }
-
-.swiper {
-    width: 100%;
-    height: 600px;
+.sw-did{
+    .swiper {
+        width: 100%;
+        height: 600px;
+    }
+    
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .nopadding-x{
     padding: 70px 120px;
     display: flex;
@@ -191,6 +193,9 @@ footer{
         top: 265px;
         right: 0;
         text-align: center;
+    }
+    .rounded {
+        border-radius: none;
     }
     .swiper {
         width: 100%;
