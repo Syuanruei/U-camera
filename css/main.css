@@ -800,4 +800,68 @@ main {
   color: #FFF;
   font-size: 15px;
   font-weight: 300;
+}
+
+@media (max-width: 1275px) {
+  .siang {
+    width: 700px;
+  }
+  .biglu {
+    width: 60%;
+    height: 337px;
+  }
+  .bigsa {
+    font-size: 12px;
+  }
+  .bigma {
+    font-size: 12px;
+  }
+  .biglulu {
+    height: 600px;
+  }
+}
+@media (max-width: 800px) {
+  .siang {
+    width: 538px;
+  }
+  main {
+    flex-direction: column;
+  }
+  .sw-wrap {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .mama {
+    margin: 0 auto;
+  }
+  .biglu {
+    width: 80%;
+    height: 337px;
+  }
+  .biglulu {
+    width: 76%;
+  }
+}
+@media (max-width: 576px) {
+  .siang {
+    width: 360px;
+  }
+  .smuw > img {
+    width: 70%;
+  }
+  .biglu {
+    width: 100%;
+    height: 512px;
+    margin: 24px auto;
+  }
+  .bigsa {
+    width: 20%;
+    text-align: center;
+  }
+  .bigma {
+    margin-top: 16px;
+  }
+  .biglulu {
+    height: 850px;
+  }
 }/*# sourceMappingURL=main.css.map */
