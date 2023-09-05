@@ -864,4 +864,108 @@ main {
   .biglulu {
     height: 850px;
   }
+}
+.bbb {
+  margin-top: 30px;
+}
+
+.newnew {
+  width: 80%;
+  height: 66px;
+  line-height: 66px;
+  background: #4B9090;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0 auto;
+}
+
+.new-text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.new-whole {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 0px 0px 15px 15px;
+  padding: 75px;
+}
+
+.new-left {
+  width: 45%;
+}
+.new-left > img {
+  width: 95%;
+}
+
+.beauty {
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.boyo {
+  margin-top: 40px;
+  margin-left: 110px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.new-right {
+  width: 45%;
+  margin-top: 50px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.smallbut {
+  width: 230px;
+  height: 67px;
+  border-radius: 15px;
+  background: #4B9090;
+  text-align: center;
+  line-height: 67px;
+  margin: 40px auto;
+}
+.smallbut > a {
+  display: inline-block;
+  width: 100%;
+}
+
+.back {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (max-width: 1275px) {
+  .new-whole {
+    flex-direction: column;
+  }
+  .new-left {
+    width: 100%;
+  }
+  .new-left > img {
+    width: 100%;
+  }
+  .boyo {
+    margin-left: 0;
+    text-align: center;
+  }
+  .new-right {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .new-whole {
+    padding: 25px;
+  }
 }/*# sourceMappingURL=main.css.map */
