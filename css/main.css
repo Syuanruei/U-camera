@@ -841,6 +841,9 @@ main {
   .biglulu {
     width: 76%;
   }
+  .smuw-con {
+    width: 80%;
+  }
 }
 @media (max-width: 576px) {
   .siang {
