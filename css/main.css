@@ -264,6 +264,13 @@ footer .use_line {
   }
 }
 @media (max-width: 576px) {
+  .sw-did .swiper {
+    width: 100%;
+    height: 330px;
+  }
+  .rounded {
+    border-radius: 0 !important;
+  }
   .news_whole {
     flex-direction: column;
     align-items: center;
