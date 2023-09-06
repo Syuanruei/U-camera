@@ -124,7 +124,7 @@ nav > a {
 }
 .news_whole .news_card {
   width: 24%;
-  height: 444px;
+  height: auto;
   background: #FFF;
   text-align: center;
   border-radius: 15px;
